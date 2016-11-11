@@ -22,8 +22,11 @@ void replaceAllChange(string& ss)
         }
     }
 }
+
+//just a test for git
 int main()
 {
+    cout << "test for git " << endl;
     chartemp = "\\\"\"helloworld\"\"\"hello\\\\\\test\\\\";
     cout << chartemp << endl;
     replaceAllChange(chartemp);
